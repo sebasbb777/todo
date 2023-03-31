@@ -1,0 +1,73 @@
+*{
+  margin: 0px;
+  paddimg:0px;
+}
+div{
+  width:100px;
+  height: 100px;
+  border: 2px;
+  background: skyblue;
+  margin: 10px;
+}
+#color2{
+  text-align: center;
+  background: plum;
+  color: paleturquoise;
+  border: 2px dashed paleturquoise;
+}
+.color3{
+  background: #FFAABC;
+  lor: #FF0FAF;
+}
+#color4 {
+  text-align: center;
+  background: plum;
+  color: #F0F;
+  border: 2px dashed paleturquoise;
+}
+#color5{
+  text-align: center;
+  background: rgb(20, 10, 100);
+  color: rgb (60, 70, 80);
+  border: 3px dashed rgb(30, 45, 69);
+}
+#color6{
+  text-align: center;
+  background: rgb(30, 10, 30);
+  color: rgb (10, 30, 30);
+  border: 3px dashed rgb(89, 45, 35);
+}
+#color7{
+  text-align: center;
+  background: linear-gradient(pink,yellow);
+  color: paleturquoise;
+  border: 2px dashed paleturquoise;
+}
+#color8{
+  text-align: center;
+  background: rgba (10,20,30,0.5);
+  color: paleturquoise;
+  border: 2px dashed paleturquoise;
+}
+#color9{
+  text-align: center;
+  background: linear-gradient(to right, red, yellow);
+  color: paleturquoise;
+  border: 2px dashed paleturquoise;
+}
+#color10{
+  text-align: center;
+  background: linear-gradient(180deg, red, orange, yellow, green, blue, indigo, violet);
+ 
+  border: 2px dashed paleturquoise;
+}
+h1{
+  background: linear-gradient(royalblue,dimgray);
+  -webkit-background-clip:text;
+  color: transparent;
+}
+body{
+  background: linear-gradient(plum,cadetblue);
+  -webkit-background-clip:body;
+  color: transparent;
+}

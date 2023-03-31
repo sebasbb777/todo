@@ -1,0 +1,211 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  padding-top: 40px;
+}
+.casa1{
+  position: relative;
+  width: 800px;
+  height: 500px;
+  background: lightgray;
+  margin: auto;
+}
+.sol{
+  width: 130px;
+  height: 130px;
+  background: linear-gradient(yellow,gold,orange);
+  position: absolute;
+  top: 60px;
+  left:50px;
+  border-radius:100%;
+  box-shadow: 0 0 30px yellow;
+  
+}
+.base{
+  width: 800px;
+  height: 30px;
+  background: maroon;
+  position: absolute;
+  bottom: 0px;
+  box-shadow: 0 0 30px white;
+}
+.casa{
+  width: 400px;
+  height: 250px;
+  background: navajowhite;
+  position: absolute;
+  bottom: 30px;
+  left: 100px;
+}
+.techo{
+  width: 450px;
+  height: 30px;
+  background: sienna;
+  position: absolute;
+  bottom: 280px;
+  left: 75px;
+}
+.chim1{
+  width: 50px;
+  height: 100px;
+  background: burlywood;
+  position: absolute;
+  bottom: 310px;
+  left: 380px;
+}
+.chim2{
+  width: 70px;
+  height: 20px;
+  background: saddlebrown;
+  position: absolute;
+  bottom: 410px;
+  left: 370px;
+}
+.puerta{
+  position: absolute;
+  width: 80px;
+  height: 110px;
+  top: 350px;
+  left:130px;
+  background: sienna;
+  margin: 10px;
+  border: white;
+}
+.ventana{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 350px;
+  left: 300px;
+  background: skyblue;
+  border:2px solid black;
+}
+.vent2{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 350px;
+  left: 255px;
+  background: skyblue;
+  border:2px solid black;
+}
+.vent3{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 400px;
+  left: 300px;
+  background: skyblue;
+  border:2px solid black;
+}
+.vent4{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 400px;
+  left: 255px;
+  background: skyblue;
+  border:2px solid black;
+}
+.arbol2{
+  position: absolute;
+  border-radius: 50% 50% 50% 50%;
+  width: 120px;
+  height: 120px;
+  background: limegreen;
+  margin: 10px;
+  top: 300px;
+  left: 600px;
+  z-index:3;
+}
+.tronco2{
+  position: absolute;
+  width: 25px;
+  height: 80px;
+  top: 400px;
+  left: 650px;
+  background: sienna;
+  margin: 10px;
+}
+.jardin{
+  position: absolute;
+  width: 800px;
+  height: 20px;
+  top: 500px;
+  left: 0px;
+  background: greenyellow
+ 
+}
+.mani{
+  border-radius: 50% 50% 50% 50%;
+  width: 10px;
+  height: 10px;
+  background: black;
+  margin: 10px;
+  position: absolute;
+  top: 400px;
+  left: 135px;
+  z-index:3;
+}
+.ray{
+  width: 10px;
+  height: 50px;
+  background: darkorange;
+  margin: 10px;
+  position: absolute;
+  top: 10px;
+  left: 100px;
+}
+.ray2{
+  width: 10px;
+  height: 50px;
+  background: darkorange;
+  margin: 10px;
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  transform: rotate(50deg);
+}
+.ray3{
+  width: 10px;
+  height: 50px;
+  background: darkorange;
+  margin: 10px;
+  position: absolute;
+  top: 130px;
+  left: 180px;
+  transform: rotate(110deg);
+}
+.ray4{
+  width: 10px;
+  height: 50px;
+  background: darkorange;
+  margin: 10px;
+  position: absolute;
+  top: 180px;
+  left: 100px;
+}
+.ray5{
+  width: 10px;
+  height: 50px;
+  background: darkorange;
+  margin: 10px;
+  position: absolute;
+  top: 130px;
+  left: 20px;
+  transform: rotate(-110deg);
+}
+.ray6{
+  width: 10px;
+  height: 50px;
+  background: darkorange;
+  margin: 10px;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  transform: rotate(-50deg);
+}

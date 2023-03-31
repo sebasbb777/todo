@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(117, 110, 252)0%, rgb(80, 23, 134) 22%, rgba(0,212,255,1)100%);
+    color: royalblue;
+}
+div{
+   width:100px;
+   height: 100px;
+   background: rgb(2, 0, 36);
+   background: plum;
+   padding: 50px 0px 0px;
+   margin: 10px;
+   display: inline-block;
+   border: 2px solid dodgerblue;
+  text-align: center;
+}
+#caja1{
+    box-shadow: -10px 20px 5px wheat;
+    border-radius: 150%  150%;
+}
+#caja2{
+    margin: 15px 90px 10px 30px;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(64,94,251,1)14%, rgb(101, 136, 230)61%);
+    border: 10px solid rgb(8, 14, 32);
+    box-shadow: -20px 40px 10px powderblue;
+
+}
+
+#caja3{
+    margin: 15px 90px 10px 30px;
+    background: rgba (10,20,30,0.5);
+    color: paleturquoise;
+    border: 2px dashed paleturquoise;
+}
+#caja4{
+    margin: 15px 90px 10px 30px;
+    background: rgb(30, 10, 30);
+    color: rgb (10, 30, 30);
+    border: 3px dashed rgb(89, 45, 35);
+}
+#caja5{
+    margin: 15px 90px 10px 30px;
+    text-align: center;
+  background: linear-gradient(180deg, red, orange, yellow, green, blue, indigo, violet);
+ 
+  border: 2px dashed paleturquoise;
+}
+#caja6{
+    margin: 15px 90px 10px 30px;
+    text-align: center;
+  background: rgb(20, 10, 100);
+  color: rgb (60, 70, 80);
+  border: 3px dashed rgb(30, 45, 69);
+}
+#caja7{
+    margin: 15px 90px 10px 30px;
+   text-align: center;
+  background: plum;
+  color: #F0F;
+  border: 2px dashed paleturquoise;
+}
+#caja8{
+    margin: 15px 90px 10px 30px;
+    text-align: center;
+  background: plum;
+  color: paleturquoise;
+  border: 2px dashed paleturquoise;
+}
+#caja9:hover{
+    background: royalblue;
+    color: blue;
+    transform: scale(1.2);
+    transition: 2s all ease;
+}
+#caja10{
+    margin: 15px 90px 10px 30px;
+    text-align: center;
+   background: rgb(107, 19, 107);
+   color: rgb(102, 145, 224);
+   border: 2px dashed paleturquoise;
+}

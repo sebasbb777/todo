@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background: linear-gradient(lightSteelBlue,dodgerBlue, royalblue);
+}
+h1{
+    font-family: 'Shrikhand', cursive;
+}
+@font-face{
+    font-family: "Roboto";
+    src: local("Roboto");
+    url:("fonts/RobotoSlab-Bold.ttf") format("truetype");
+}
+.roboto{
+    font-family:´Roboto´ ;
+}
+.ara1{
+    font-family:'Climate Crisis', cursive;
+}
+.ara2{
+    font-family: 'DM Sans', sans-serif;
+}
+.ara3{
+    font-family: 'Fjalla One', sans-serif;
+}
+.ara{
+    font-family: 'Shadows Into Light', cursive;
+}
+.ara4{
+    font-family: 'Dancing Script', cursive;
+}
+
+.izq{
+    text-align: left;
+}
+.der{
+    text-align: right;
+}
+.cen{
+    text-align: center;
+}
+.jus{
+    text-align: justify;
+}
+.interlineado1{
+    line-height: 0.5;
+    font-size: 1em;
+}
+.interlineado2{
+    line-height: 3.2;
+    font-size: 1em;
+}
+.libre{
+    font-family: ´Roboto´;
+    font-size: 72px;
+    background: linear-gradient(to botoom right, red, yellow);
+    -webkit-background-clip: text;
+    color:transparent
+    }
+    .libre:hover{
+        font-family: ´Roboto´;
+        font-size: 72px;
+        background: linear-gradient(to botoom right, blue, green);
+        -webkit-background-clip: text;
+        color: black;
+        transition: 1s all ease;
+        transform: scale(1.1);
+        transform:rotate(360deg);
+}

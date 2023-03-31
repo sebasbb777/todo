@@ -1,0 +1,59 @@
+* {}
+.circulo{
+  width: 50%;
+  height: 70%;
+  border: 2px solid yellow;
+  background: white;
+  margin: 20px;
+}
+.cara{
+  border-radius: 100% 100% 100% 100%;
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  background: burlywood;
+  margin: 10px;
+}
+.ojoder{
+  position: absolute;
+  border-radius: 0% 0% 0% 0%;
+  width: 50px;
+  height: 50px;
+  border:2px solid black;
+  top: 150px;
+  left: 150px;
+  background: skyblue;
+  margin: 10px;
+}
+.ojoizq{
+  position: absolute;
+  border-radius: 0% 0% 0% 0%;
+  width: 50px;
+  height: 50px;
+  border:2px solid black;
+  top: 150px;
+  right: 600px;
+  background: skyblue;
+  margin: 10px;
+}
+.nariz{
+  position: absolute;
+  border-radius:20% 20% 20% 20%;
+  width: 50px;
+  height: 50px;
+  border:2px solid black;
+  top: 250px;
+  left: 225px;
+  background: brown;
+  margin: 10px;
+}
+.boca{
+  position: absolute;
+  width: 250px;
+  height: 30px;
+  border:px solid black;
+  top: 380px;
+  left: 130px;
+background: linear-gradient(red,pink);
+  margin: 10px;
+}
