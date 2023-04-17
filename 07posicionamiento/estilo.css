@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  div{
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    color: blak;
+    border: 2px dashed yellow;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+  }
+  .pos1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: deeppink;
+  }
+  .pos2{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background: deeppink;
+  }
+  .pos3{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: deeppink;
+  }
+  .pos4{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: deeppink;
+  }
+  .pos5{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background: deeppink;
+  }
+  .pos6{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: deeppink;
+  }
+  .pos7{
+    position: fixed;
+    top: 52%;
+    left: 52%;
+    background: rgba(0, 0, 255, 0.5);
+    z-index:3;

@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    color: aliceblue;
+    background: rgb(255,0,112);
+background: radial-gradient(circle, rgba(255,0,112,1) 0%, rgba(105,3,230,1) 100%);
+}
+.ejemplo1{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: row;
+}
+.ejemplo2{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ejemplo3{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: column;
+}
+.ejemplo4{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.ejemplo5{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.ejemplo6{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ejemplo7{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.ejemplo8{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    flex-flow: column-reverse wrap;
+}
+.caja{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: #05f7ab;
+}
+.content{ 
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed black;
+  display: flex;
+}
+.ejemplo1{
+    flex-direction: row;
+}
+.ejemplo2{
+    flex-direction: row-reverse;
+}
+.ejemplo3{
+    flex-direction: column;
+}
+.ejemplo4{
+    flex-direction: column-reverse;
+}
+.ejemplo5{
+    flex-wrap: nowrap;
+}
+.ejemplo6{
+    flex-wrap: wrap;
+}
+.ejemplo7{
+    flex-wrap: wrap-reverse;
+}
+.ejemplo8{
+    flex-flow: column-reverse wrap;
+}
+.ejemplo9{
+    justify-content: flex-start;
+
+}
+.ejemplo10{
+    justify-content: flex-end;
+    
+}
+.ejemplo11{
+    justify-content: center;
+    
+}
+.ejemplo12{
+    justify-content: space-between;
+    
+}
+.ejemplo13{
+    justify-content: space-around;
+    
+}
+.ejemplo14{
+    justify-content: space-evenly;
+    
+}
+.ejemplo15{
+    align-items: flex-start;
+}
+.ejemplo16{
+    align-items: flex-end;
+}
+.ejemplo17{
+    align-items: center;
+}
+.ejemplo18{
+    align-items: stretch;
+}
+.ejemplo19{
+    align-items: baseline;
+}
+.ejemplo20{
+    justify-content: center;
+    align-items: center;
+}
